@@ -1,0 +1,1 @@
+Hint: 2>/dev/null to throw every error to the void
