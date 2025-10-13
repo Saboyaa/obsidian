@@ -1,4 +1,0 @@
-hirens
-ventoy
-tails
-kali
