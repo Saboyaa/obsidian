@@ -33,7 +33,6 @@ fi
 ```
 - #!/bin/bash - shebang ( says to the [[SO]] which interpreter to use )
 - if-else-fi - normal if else and we know where it ends with the fi 
-- comparison operators `-eq` `-gt` `-lt`  
 ## Arguments 
 - `$#` / `$0` / `$1` - Special variables. 
 - `$#` - number of arguments
@@ -41,4 +40,43 @@ fi
 - `$$` The process ID of the currently executing process.
 - `$n` -  is the n'th argument up to 9
 - `$?` The exit status of the script. This variable is useful to determine a command's success. The value 0 represents successful execution.
+
+## Variables and Array
+
+```
+#variable
+var = "asd ad" #don't need the "" if doesn't have special characters
+var2 = 2
+
+#array
+array = (x y z)
+echo ${array[0]}
+```
+
+## Operators
+
+- comparison operators `-eq` `-gt` `-lt`  for integers
+- `=` contains into
+- `==` is equal to
+- `!=` is not equal to
+- `<` is less than in ASCII alphabetical order
+- `>` is greater than in ASCII alphabetical order
+- `-z` if the string is empty (null)
+- `-n` if the string is not null
+### File Operators
+- `-e` if the file exists 
+- `-f` tests if it is a file
+- `-d` tests if it is a directory
+- `-L` tests if it is a symbolic link
+- `-N` checks if the file was modified after it was last read
+- `-O` if the current user owns the file
+- `-G` if the file's group id matches the current user's
+- `-s` tests if the file has a size greater than 0
+- `-r` tests if the file has read permission
+- `-w` tests if the file has write permission
+- `-x` tests if the file has execute permission
+### Logical Operators
+- `!` logical negation NOT
+- `&&` logical AND
+- `&&` logical OR
 
