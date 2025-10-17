@@ -13,7 +13,8 @@ The primary goals of web reconnaissance revolve around gaining a comprehensive u
 [[dnseum]]
 [[gobuster]]
 [[ffuf]]
-[[Curl]]
+[[Nikto]]
+[[[[Curl]]
 [[Google Dorks]]
 ### Useful Knowledge 
 [[Vhost]]
