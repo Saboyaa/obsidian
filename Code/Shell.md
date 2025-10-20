@@ -31,4 +31,31 @@ find /etc/ -name *.conf 2>/dev/null | grep systemd | wc -l
 ```shell-session
  find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -al {} \; 2>/dev/null
 ```
-
+less
+```shell-session
+ less /etc/passwd
+```
+head/tail
+```shell-session
+tail /etc/passwd
+```
+sort
+```shell-session
+cat /etc/passwd | sort
+```
+grep
+```shell-session
+cat /etc/passwd | grep "/bin/bash"
+```
+cut 
+```shell-session
+cat /etc/passwd | grep -v "false\|nologin" | cut -d":" -f1
+```
+tr
+```shell-session
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " "
+```
+wc
+```shell-session
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " " | awk '{print $1, $NF}' | wc -l
+```

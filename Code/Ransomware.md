@@ -1,0 +1,1 @@
+Ransomware is a type of malicious software (or malware) that infiltrates servers, computers, and networks, encrypting valuable files so they become inaccessible.
