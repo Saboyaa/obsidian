@@ -1,5 +1,5 @@
 ## scripting x programming
-The main difference is that scripting don't need to compile the code 
+The main difference is that scripting don't need to compile the code normally ran on [[Linux]]
 
 ## Starting the script
 ```shell-session
@@ -106,3 +106,19 @@ do
 done
 ```
 
+## Functions
+Since the script is processed from top to bottom is a good practice to put all of them on the top
+```bash
+function name {
+	echo $1 $2 #the variables you declare when calling the function
+	<commands>
+}
+```
+or
+```bash
+name() {
+	<commands>
+}
+```
+
+Obs: `bash -x <path>` is the function to debug it
