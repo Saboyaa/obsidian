@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Bash Script.md",
+                "file": "Code/Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bash Script"
+              "title": "Shell"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "036f867b5b1cb833",
@@ -170,10 +170,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4508cc05b2903cac",
+  "active": "9c5e26afe146f6d5",
   "lastOpenFiles": [
-    "Random",
+    "Code/Linux.md",
     "Code/Bash Script.md",
+    "Code/Shell.md",
+    "Random",
     "Code/Ferramentas de scanning.md",
     "Code/Information Gathering.md",
     "images_folder/ig_virtualhosts_1.png",
