@@ -31,7 +31,7 @@ fi
 
 <SNIP>
 ```
-- #!/bin/bash - shebang ( says to the [[SO]] which interpreter to use )
+- #!/bin/bash - shebang ( says to the [[SO]] which [[interpreter]] to use )
 - if-else-fi - normal if else and we know where it ends with the fi 
 ## Arguments 
 - `$#` / `$0` / `$1` - Special variables. 
@@ -79,4 +79,30 @@ echo ${array[0]}
 - `!` logical negation NOT
 - `&&` logical AND
 - `&&` logical OR
+### Arithmetic Operators
+
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division
+- `%` Modulus
+- `variable++` Increase the value of the variable by 1
+- `variable--` Decrease the value of the variable by 1
+- `${#variable}` Counts the letters 
+## Flow
+
+```bash
+for variable in 1 2 3 4
+do
+	echo $variable
+done
+```
+
+```bash
+while [ $variable -lt 10 ]
+do
+	echo $variable
+	((variable++))
+done
+```
 
