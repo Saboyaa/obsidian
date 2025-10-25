@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Shell.md",
+                "file": "LangGraph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell"
+              "title": "LangGraph"
             }
           }
         ]
@@ -172,12 +172,15 @@
   },
   "active": "9c5e26afe146f6d5",
   "lastOpenFiles": [
-    "Code/Linux.md",
-    "Code/Bash Script.md",
+    "Code/Python.md",
+    "LangGraph.md",
     "Code/Shell.md",
+    "Code/Linux.md",
+    "Code/Information Gathering.md",
+    "Code/n8n.md",
+    "Code/Bash Script.md",
     "Random",
     "Code/Ferramentas de scanning.md",
-    "Code/Information Gathering.md",
     "images_folder/ig_virtualhosts_1.png",
     "images_folder/Pasted image 20250903215403.png",
     "images_folder/Pasted image 20250903215304.png",
@@ -189,7 +192,6 @@
     "Code/Elasticsearch/Elasticsearch.md",
     "Code/whois.md",
     "Code/nmap.md",
-    "Code/n8n.md",
     "Code/gobuster.md",
     "Code/dnseum.md",
     "Code/dig.md",
