@@ -7,10 +7,10 @@
 | [[#Client-Server Architecture\|Client-Server]] | Centralized                     | Moderate             | Easier (server-based)              | Websites, email services           |
 | [[#Hybrid Architecture\|Hybrid]]               | Partially central               | Higher than C-S      | More complex management            | Messaging apps, video conferencing |
 | [[#Cloud Architecture\|Cloud ]]                | Centralized in provider’s infra | High                 | Easier (outsourced)                | Cloud storage, SaaS, PaaS          |
-| `SDN`                                          | Centralized control plane       | High (policy-driven) | Moderate (needs specialized tools) | Datacenters, large enterprises     |
+| [[#Software-Defined Architecture (SDN)\|SDN]]  | Centralized control plane       | High (policy-driven) | Moderate (needs specialized tools) | Datacenters, large enterprises     |
 
 ### Peer-to-Peer (P2P) Architecture
-In a `Peer-to-Peer (P2P`) network, each node, whether it's a computer or any other device, acts as both a client and a server.
+In a `Peer-to-Peer (P2P)` network, each node, whether it's a computer or any other device, acts as both a client and a server.
 This setup allows nodes to communicate directly with each other, sharing resources such as files, processing power, or bandwidth, without the need for a central server. 
 P2P networks can be fully decentralized, with no central server involved, or partially centralized, where a central server may coordinate some tasks but does not host data.
 #### Advantages
