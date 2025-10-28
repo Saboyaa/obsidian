@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangGraph.md",
+                "file": "Code/Linux Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LangGraph"
+              "title": "Linux Security"
             }
           }
         ]
@@ -172,10 +172,21 @@
   },
   "active": "9c5e26afe146f6d5",
   "lastOpenFiles": [
-    "Code/Python.md",
-    "LangGraph.md",
-    "Code/Shell.md",
+    "Code/Linux Network Configuration.md",
+    "Code/Linux Security.md",
+    "IP.md",
+    "Code/Network.md",
     "Code/Linux.md",
+    "Code/Linux Containers (LXC).md",
+    "Code/Linux File System Management.md",
+    "Code/LangGraph.md",
+    "Shell.md",
+    "Privilege Escalation.md",
+    "Code/Docker.md",
+    "Code/Docker-compose.md",
+    "Code/Elasticsearch/Elasticsearch.md",
+    "Code/Python.md",
+    "Code/Shell.md",
     "Code/Information Gathering.md",
     "Code/n8n.md",
     "Code/Bash Script.md",
@@ -189,7 +200,6 @@
     "images_folder/Pasted image 20250828134444.png",
     "images_folder",
     "Pasted image 20250903222721.png",
-    "Code/Elasticsearch/Elasticsearch.md",
     "Code/whois.md",
     "Code/nmap.md",
     "Code/gobuster.md",
@@ -197,15 +207,7 @@
     "Code/dig.md",
     "Code/Vhost.md",
     "Code/SecList.md",
-    "Code/Media Wiki.md",
-    "Code/Lateral Movement.md",
-    "Code/HTTPS.md",
-    "Code/HTTP.md",
-    "Code/Find.md",
     "Code/Elasticsearch",
-    "Code/DevTools.md",
-    "Code/Curl.md",
-    "Code/Cloudflare.md",
     "Code"
   ]
 }

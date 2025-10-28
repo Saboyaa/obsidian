@@ -1,0 +1,4 @@
+[[Linux]] Containers (`LXC`) is a lightweight virtualization technology that allows multiple isolated Linux systems (called containers) to run on a single host. LXC uses key resource isolation features, such as control groups (`cgroups`) and `namespaces`, to ensure that each container operates independently. Unlike traditional [[virtual machines]], which require a full OS for each instance, containers share the host's kernel, making LXC more efficient in terms of resource usage.
+## Securing LXC
+
+Let us limit the resources to the container. In order to configure `cgroups` for LXC and limit the CPU and memory, a container can create a new configuration file in the `/usr/share/lxc/config/<container name>.conf` directory with the name of our container. For example, to create a configuration file for a container named `linuxcontainer`, we can use the following command:

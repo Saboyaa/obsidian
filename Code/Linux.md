@@ -30,3 +30,18 @@ Peripheral devices such as the system's RAM, hard drive, CPU, and others.
 The core of the Linux operating system whose function is to virtualize and control common computer hardware resources like [[CPU]], allocated memory, accessed data, and others. The kernel gives each process its own virtual resources and prevents/mitigates conflicts between different processes.
 ### [[Shell]]
 A command-line interface (CLI), also known as a shell that a user can enter commands into to execute the kernel's functions.
+## Backup and Restore 
+- `Rsync` - Fast and secure backups locally or remote
+- `Deja Dup` - a simple backup, more user-friendly
+- `Duplicity` - Same as Rsync but encrypted
+
+### Rsync Usage
+
+```shell-session
+rsync -av /path/to/mydirectory user@backup_server:/path/to/backup/directory
+```
+
+This command will copy the entire directory (`/path/to/mydirectory`) to a remote host (`backup_server`), to the directory `/path/to/backup/directory`. The option `archive` (`-a`) is used to preserve the original file attributes, such as permissions, timestamps, etc., and using the `verbose` (`-v`) option provides a detailed output of the progress of the `rsync` operation.
+
+## [[Linux File System Management]]
+Managing file systems on Linux is a crucial task that involves organizing, storing, and maintaining data on a disk or other storage device. 
