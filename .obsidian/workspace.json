@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Linux Security.md",
+                "file": "Code/SOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Security"
+              "title": "SOC"
             }
           }
         ]
@@ -172,9 +172,19 @@
   },
   "active": "9c5e26afe146f6d5",
   "lastOpenFiles": [
-    "Code/Linux Network Configuration.md",
-    "Code/Linux Security.md",
+    "Code/SIEM.md",
+    "images_folder/Pasted image 20251028222402.png",
+    "Code/ELK Stack.md",
+    "Code/MITRE ATT&CK.md",
+    "images_folder/Pasted image 20251028221505.png",
+    "Code/SOC.md",
+    "images_folder/Pasted image 20251028203038.png",
+    "images_folder/Pasted image 20251028202437.png",
+    "Code/Linux Logs.md",
     "IP.md",
+    "Code/Firewall.md",
+    "Code/Linux Security.md",
+    "Code/Linux Network Configuration.md",
     "Code/Network.md",
     "Code/Linux.md",
     "Code/Linux Containers (LXC).md",
@@ -199,14 +209,6 @@
     "images_folder/Pasted image 20250903212257.png",
     "images_folder/Pasted image 20250828134444.png",
     "images_folder",
-    "Pasted image 20250903222721.png",
-    "Code/whois.md",
-    "Code/nmap.md",
-    "Code/gobuster.md",
-    "Code/dnseum.md",
-    "Code/dig.md",
-    "Code/Vhost.md",
-    "Code/SecList.md",
     "Code/Elasticsearch",
     "Code"
   ]
